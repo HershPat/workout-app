@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "sYdkoXN2f2cVW/+OCcIrvLzyFT2Z8ctq0LW4QRyPRPE=",
+  "Source": "WorkoutAppWebApi",
+  "BasePath": "_content/WorkoutAppWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

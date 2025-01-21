@@ -27,7 +27,6 @@
 - [ ] Get Workouts by Category
 - [ ] Get Workouts by Difficulty
 - [ ] Get Workouts by Duration
-- [ ] Get Workouts by Equipment
 - [ ] Get Workouts by Muscle Group
 
 3. Authentication
