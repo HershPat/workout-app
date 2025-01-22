@@ -1,10 +1,10 @@
 ﻿namespace WorkoutAppWebApi.Models
 {
-    public class users
+    public class Client
     {
-        public int user_id { get; set; }
+        public int client_id { get; set; }
         public String username { get; set; }
-        public String user_pass { get; set; }
+        public String client_pass { get; set; }
         public String email { get; set; }
         public String phone_number { get; set; }
         public DateTime created_at { get; set; }
