@@ -1,6 +1,6 @@
 ﻿namespace WorkoutAppWebApi.Models
 {
-    public class workouts
+    public class Workout
     {
         public int workout_id { get; set; }
         public int user_id { get; set; }
