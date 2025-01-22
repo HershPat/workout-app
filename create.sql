@@ -23,7 +23,7 @@ CREATE TABLE exercises (
 
 CREATE TABLE workouts (
     workout_id SERIAL PRIMARY KEY,
-    user_id REFERENCES users(user_id),
+    user_id INTEGER REFERENCES users(user_id),
     workout_name VARCHAR(255) NOT NULL,
     workout_date DATE NOT NULL,
     created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -32,12 +32,12 @@ CREATE TABLE workouts (
 
 CREATE TABLE workout_exercises (
     workout_exercise_id SERIAL PRIMARY KEY,
-    workout_id REFERENCES workouts(workout_id),
-    exercise_id REFERENCES exercises(exercise_id),
-    reps INT NOT NULL DEFAULT 0,
-    sets INT NOT NULL DEFAULT 1,
-    weight INT NOT NULL DEFAULT 0,
-    duration INT NOT NULL DEFAULT 0,
+    workout_id INTEGER REFERENCES workouts(workout_id),
+    exercise_id INTEGER REFERENCES exercises(exercise_id),
+    reps INTEGER NOT NULL DEFAULT 0,
+    sets INTEGER NOT NULL DEFAULT 1,
+    weight INTEGER NOT NULL DEFAULT 0,
+    duration INTEGER NOT NULL DEFAULT 0,
     created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
